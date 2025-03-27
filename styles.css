@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .login {
+    font-family: 'Arial', sans-serif;
+    background-color: #d3d1cb81; 
+    color: #000000; 
+    margin-top: 10%;
+}
+
+/*Formulario*/
+form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+    align-items: center;
+   
+
+
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: left;
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    resize: none;
+}
+
+button {
+    background-color: #008000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4bc01c;
+}
+/*Registro*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dcdcdc
+}
+
+header {
+    background-color: #333;
+    left: 0;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+.container a {
+    color: white;
+    display: flex;
+}
+
+main {
+    text-align: center;
+}
