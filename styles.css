@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
-body .login {
+body  {
     font-family: 'Arial', sans-serif;
     background-color: #d3d1cb81; 
     color: #000000; 
+}
+
+.inicio {
     margin-top: 10%;
 }
 
@@ -17,12 +20,8 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     gap: 20px;
     align-items: center;
-   
-
-
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
@@ -66,20 +65,37 @@ button {
 button:hover {
     background-color: #4bc01c;
 }
-/*Registro*/
-body {
-    font-family: Arial, sans-serif;
-    background-color: #dcdcdc
+/*Welcome*/
+
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    width: 400px;
+    background-color: black;
+    height: 1000px;
+}
+
+nav a{
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: wheat;
+    color: black;
 }
 
 header {
-    background-color: #333;
     left: 0;
     color: #fff;
     margin: 0px;
     padding: 0px;
     width: 300px;
     text-align: center;
+    position: fixed;
 }
 
 .container{
@@ -93,4 +109,7 @@ header {
 
 main {
     text-align: center;
+    padding: 10px;
+    margin-left: 10%; 
 }
+
